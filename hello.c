@@ -1,21 +1,16 @@
 #include <stdio.h>
-int main(){
- printf("hell0 \"pradip\"");
- printf("\nhello\"harshit\"");
- printf("percentage=%");
-  // int var; // varaible intilization 
-  // var= 22; // varaibke decelaration  
-  // int first_name = 22; // intilization and delecration in single line.
-  // char g = 'a';
-  // long i = 22233; 
-  // double d =222.3333;
-  // float f = 2.000; 
-  // // char last_name ='pradip';
-  // printf("%d\n",first_name); // printing 
-  // printf("%c\n", g); 
-  // printf("double=%.3lf\n", d);
-  //  printf ("float=%.2f\n", f); 
-  // // printf("%c",last_name);
+int main(){ 
+
+ int a = -1;
+ int b = +12;
+ int c = 123;
+ int d = 1234;
+ int e = 12345;
+ printf("\n%+d",a); 
+  printf("\n%+d",b); 
+   printf("\n%+d",c); 
+    printf("\n%+d",d); 
+     printf("\n%+d",e); 
   return 0; 
 } 
 
