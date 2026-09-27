@@ -1,11 +1,18 @@
 #include<stdio.h>
 int main(){
-char al;
-printf("enter alphabat");
-scanf("%c",&al);
-if(al=='a'||al =='e'||al=='i'||al=='o'||al=='u')
-  printf("vowel",al);
-else
-  printf("consonent",al);
+int year=2008;
+if(year%100==0){
+  if(year%400==0){
+    printf("leap year");
+  }else{
+  printf("not a leap year");
+} 
+}else{
+  if(year%4==0){
+    printf("leap year");
+  }else{
+  printf("not a leap year");
+   } 
+}
 return 0; 
 } 
