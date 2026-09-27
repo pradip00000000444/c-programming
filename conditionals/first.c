@@ -1,13 +1,11 @@
 #include<stdio.h>
 int main(){
-char name[]="polu";
-int age=21;
-printf("enter age");
-scanf("%d",&age);
-if(age>=18){
-  printf("Hello %s, your are eligible to vote",name);
-}else{
-  printf("Hello %s you will be eligible to vote after %d years",name,(18-age));
-}
+char al;
+printf("enter alphabat");
+scanf("%c",&al);
+if(al=='a'||al =='e'||al=='i'||al=='o'||al=='u')
+  printf("vowel",al);
+else
+  printf("consonent",al);
 return 0; 
 } 
