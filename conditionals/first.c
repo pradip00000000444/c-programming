@@ -1,10 +1,12 @@
 #include<stdio.h>
 int main(){
-int marks= 30;
-  if(marks>=40) { 
-  printf("pass"); 
+int ts = 'r';
+  if (ts == 'g'){
+    printf("move forward!");
+  } else if (ts == 'r'){
+    printf("stop!");
   }else{
-    printf("fail");
+    printf("slow down!");
   }
 return 0; 
-}
+} 
