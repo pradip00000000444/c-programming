@@ -1,14 +1,12 @@
 #include<stdio.h>
 int main(){
-int ts = 'b';
-  if (10>5){
-    printf("hello 1\n");
-  } if (15>10){
-    printf("done\n");
-  } if(9>0){
-    printf("okay\n");
-  }else{
-    printf("no hello");
-  }
+int a,b;
+printf("enter two numbers");
+scanf("%d%d",&a,&b);
+if(a>b){
+  printf("the greater number is: %d",a);
+}else{
+  printf("the greater number is: %d",b);
+}
 return 0; 
 } 
