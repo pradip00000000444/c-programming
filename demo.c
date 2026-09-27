@@ -1,8 +1,10 @@
 #include<stdio.h> 
 int main(){
-int a=102; 
-printf("%d\n",a--);
-printf("%d\n",a);
-printf("%d\n",--a);
+int a=102, b=50; 
+printf("%d\n",(a>b));
+printf("%d\n",(a<b));
+printf("%d\n",(a<=b));
+printf("%d\n",(a>=b));
+printf("%d\n",(a!=b));
 return 0;
 } 
