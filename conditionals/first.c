@@ -4,7 +4,7 @@ int year=2008;
 if(year%100==0){
   if(year%400==0){
     printf("leap year");
-  }else{
+  }else{                            //nested if else 
   printf("not a leap year");
 } 
 }else{
