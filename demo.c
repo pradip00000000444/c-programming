@@ -1,10 +1,8 @@
 #include<stdio.h> 
 int main(){
 int a=102, b=50; 
-printf("%d\n",(a>b));
-printf("%d\n",(a<b));
-printf("%d\n",(a<=b));
-printf("%d\n",(a>=b));
-printf("%d\n",(a!=b));
+// a=a+b;
+b += a;
+printf("the sum of two numbers is:%d",b);
 return 0;
 } 
