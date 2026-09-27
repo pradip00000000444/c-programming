@@ -1,11 +1,13 @@
-#include<stdio.h> 
+#include<stdio.h>
+#include<math.h> 
 int main(){ 
-int l,b,ar,pi;
-printf("enter the value of length and breadth\n");
-scanf("%d%d",&l,&b);
-ar=l*b;
-pi=2*(l+b);
-printf("the area of rectangle is:%d\n",ar);
-printf("the perimeter of rectangle is:%d",pi);
+ int r;
+ float p =3.14;
+printf("enter the value of radius");
+scanf("%d",&r);
+int area = r*pow(r,2);
+int ci = 2*p*r;
+printf("the area of circle is:%d\n",area);
+printf("the circumference of circle is:%d",ci);
 return 0;
 } 
