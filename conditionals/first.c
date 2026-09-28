@@ -1,18 +1,17 @@
 #include<stdio.h>
 int main(){
-int year=2008;
-if(year%100==0){
-  if(year%400==0){
-    printf("leap year");
-  }else{                            //nested if else 
-  printf("not a leap year");
-} 
+int amount=10000,discountPercentage,discountAmount,finalAmount;
+if (amount<=5000){
+  discountPercentage=0;
+}else if(amount<=7000){
+  discountPercentage=5;
+}else if(amount<=9000){
+  discountPercentage =10;
 }else{
-  if(year%4==0){
-    printf("leap year");
-  }else{
-  printf("not a leap year");
-   } 
+  discountPercentage=20;
 }
+discountAmount=(amount*discountPercentage)/100;
+finalAmount=amount-discountAmount;
+printf("the amount after discount is %d",finalAmount);
 return 0; 
 } 
