@@ -1,7 +1,25 @@
 #include<stdio.h>
 int main(){
-int a=3,b=10;
-float ans=(float)b/a;
-printf("sum=%.2f",ans);
+char ch= 'f';
+switch (ch)
+{
+case 'a':
+  printf("vowel");
+  break;
+ case 'e':
+ printf("vowel\n");
+  break;
+  case 'i':
+  printf("vowel\n");
+  break;
+  case 'o':
+  printf("vowel\n");
+  break;
+  case 'u':
+  printf("vowel\n");
+  break;
+  default:
+  printf("consonent");
+}
 return 0; 
 } 
