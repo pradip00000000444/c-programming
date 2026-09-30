@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main(){
-    int n;
-    printf("enter a number");
-    scanf("%d",&n);
-    int lastDigit=(n%10);
-    int secondLastDigit=(n/10)%10;
-    int sum=lastDigit+secondLastDigit;
-    printf("the sum of last digit and secondLastDigit of a number is :%d\n",sum);
+    float hrs;
+    printf("enter hours");
+    scanf("%f",&hrs);
+    float min= hrs*60;
+    float sec= hrs*3600;
+    printf("total minutes=%.2f\n, total second=%.2f\n",min,sec);
 return 0;
 }
