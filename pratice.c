@@ -5,9 +5,7 @@ int main(){
     scanf("%d",&n);
     int lastDigit=(n%10);
     int secondLastDigit=(n/10)%10;
-    int thirdLastDigit=(n/100)%10;\
-    printf("the last digit of a number is:%d\n",lastDigit);
-    printf("the second Last digit of a number is:%d\n",secondLastDigit);
-    printf("the third last digit of a number is:%d\n",thirdLastDigit);
+    int sum=lastDigit+secondLastDigit;
+    printf("the sum of last digit and secondLastDigit of a number is :%d\n",sum);
 return 0;
 }
