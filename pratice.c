@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main(){
-    int n, fact;
+    int n;
     printf("enter a number");
     scanf("%d",&n);
 for(int i =1; i<=n;i++){
-     fact=fact*i;
+     if (n%i==0){
+        printf("%d\n",i);
+     }
 }
-printf("fact=%d\n",fact);
     return 0;
 }
