@@ -1,16 +1,11 @@
 #include <stdio.h>
 int main(){
-    int n,x=0;
+    int n,m;
     printf("enter a number");
     scanf("%d",&n);
-    for(int i =1; i<=n;i++){
-         if (n%i==0){ 
-            x++;
-        }
-    if(x==2){
-        printf("prime");
-    } else if(x>2){
-        printf("composite");
+  for(int i=1; i<=10;i++){
+     m=n*i;
+       printf("%d\n",m);
     }
     return 0;
 }
